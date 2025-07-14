@@ -2,7 +2,10 @@
   width: 100%;
   height: 450px;
   display: flex;
-  /* background: antiquewhite; */
+  position:fixed;
+  top: 230px;
+  z-index: 2;
+  background: white;
 }
 .Katalog-left {
   width: 30%;
@@ -13,7 +16,7 @@
 }
 .Katalog-left p {
   font-size: 20px;
-  background-color: gray;
+  /* background-color: gray; */
   padding: 10px 10px;
   transition: 0.3s;
   cursor: pointer;
@@ -61,9 +64,9 @@
   width: 100%;
   height: 100px;
   display: flex;
-  gap: 20px;
-  justify-content: center;
+  gap: 25px;
   align-items: center;
+  padding: 0 50px;
   position: relative;
 }
 .Catalog input {
@@ -79,12 +82,12 @@
   padding: 10px 25px;
   position: absolute;
   border-radius: 10px;
-  right: 455px;
+  right: 485px;
 }
 .imgdiv1 {
   text-align: center;
 }
 .Catalog input::placeholder {
   padding-left: 30px;
-  font-size: 18px;
-}
+  font-size: 18px; 
+} 

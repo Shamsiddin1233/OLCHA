@@ -1,8 +1,12 @@
 import "./Navbar.css";
+import img20 from "../assets/img20.png"
 function Navbar() {
   function button1() {}
   return (
-    <nav>
+
+    <>
+    <header> <img src={img20} alt="" /></header>
+        <nav>
       <div className="navbox-left">
         <button className="left-button1">0% Mddatli tolo'v</button>
         <button className="left-button2">Chegrmalar</button>
@@ -19,6 +23,9 @@ function Navbar() {
         </div>
       </div>
     </nav>
+
+    </>
+
   );
 }
 export default Navbar;

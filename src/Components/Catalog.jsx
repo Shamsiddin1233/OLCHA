@@ -13,62 +13,70 @@ function Cotalog() {
       <img src={img1} alt="Img" className="img1" />
 
       <div className="group">
-        <span onClick={() => setmodal(false)}>X Katlog</span>
-        <span onClick={() => setmodal(true)}>O Katlog</span>
+        <span onClick={() => setmodal(false)}>X </span>
+        <span onClick={() => setmodal(true)}>Katlog</span>
       </div>
 
       {modal && (
         <div className="Katalog">
           <div className="Katalog-left">
             <h2>Olcha Market</h2>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
+            <p>Televizor, foto-video va audio</p>
+            <p>Noutbuk, printer, kompyuterlar</p>
+            <p>Smartfon, telefon, gadjet, aksessuarlar</p>
+            <p>Maishiy texnika</p>
+            <p>Barchasi oshxona uchun</p>
+            <p>Sport anjomlari</p>
+            <p>Go‘zallik va salomatlik</p>
+            <p>Avto jihozlar</p>
+            <p>Barchasi ofis, uy va bog‘ uchun</p>
+            <p>Bolalar uchun o‘yinchoq va mahsulotlar</p>
+            <p>Mebel</p>
+            <p>Geymerlar uchun</p>
+            <p>Barchasi ta’mirlash va qurilish uchun</p>
+            <p>Elektrotransport</p>
+            <p>Sovg‘alar va suvenirlar</p>
+            <p>Qulay takliflar</p>
+            <p>Dubaydan tovarlar</p>
+            <p>Olcha Qo‘ldan</p>
+
           </div>
           <div className="Katalog-right">
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
-            <p>photo-audio and video</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
           </div>
         </div>
       )}
