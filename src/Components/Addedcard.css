@@ -1,0 +1,91 @@
+.yoq{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.img_wrapper {
+  width: 100%;
+  height: 356px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f5f7;
+  border-radius: 10px;
+}
+
+.Card {
+  width: 272px;
+  height: 580px;
+  display: flex;
+  padding: 0; 
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  position: relative;
+}
+.bg-card{
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px 240px;
+  gap: 50px;
+}
+
+@media (max-width:1200px){
+  .bg-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px ;
+    gap: 25px;
+  }
+  
+}
+@media (max-width:900px){
+    .bg-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 197px 197px 197px 197px ;
+    gap: 15px;
+    justify-content: center;
+  
+  }
+    .bg-card .Card{
+    width: 197px;
+  }
+   .img_wrapper>.avatar{
+    width: 150px;
+    height: 150px;
+  }
+  .Cardlist>div .card-botton2{
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width:632px){
+
+      .Cardlist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 284px 284px;
+    gap: 15px;
+    justify-content: center;
+  
+  }
+    .Cardlist .card{
+    width:284px ;
+  }
+}
+@media (max-width:480px){
+        .Cardlist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 208px 208px;
+    gap: 15px;
+    justify-content: center;
+  
+  }
+    .Cardlist .card{
+    width:208px ;
+  }
+}

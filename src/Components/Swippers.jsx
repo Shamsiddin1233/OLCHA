@@ -41,34 +41,34 @@ function Swippers() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={img7} alt="" />
+            <img src={img7} className="img7" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img8} alt="" />
+            <img src={img8} className="img7" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img9} alt="" />
+            <img src={img9} className="img7" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img10} alt="" />
+            <img src={img10} className="img7" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img11} alt="" />
+            <img src={img11} className="img7" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img12} alt="" />
+            <img src={img12} className="img7" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img13} alt="" />
+            <img src={img13} className="img7" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img14} alt="" />
+            <img src={img14} className="img7" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img15} alt="" />
+            <img src={img15} className="img7" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={img16} alt="" />
+            <img src={img16} className="img7" alt="" />
           </SwiperSlide>
         </Swiper>
       </div>
@@ -84,14 +84,22 @@ function Swippers() {
           <SwiperSlide>
             <div className="swip-card1">
               <h3>Kun mahsuloti</h3>
-              <img src={img17} alt="" />
-              <p>
+              
+                  <div>
+                                  <div>
+                <img src={img17} alt="" />
+              </div>
+
+              <div>
+                <p>
                 Diska mashina uchun R15 R123 <br /> Gloss Balck red lip 4*100
                 ET35
               </p>
               <h2>3 831 065 so'm</h2>
               <del>3 909 250 so'm</del>
               <mark>449 000 so'm x 12 oy</mark>
+              </div>
+                  </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>

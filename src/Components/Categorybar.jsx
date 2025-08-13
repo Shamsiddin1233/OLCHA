@@ -6,4 +6,4 @@ function Categorybar() {
         </div>
     )
 }
-export default Categorybar()
+export default Categorybar

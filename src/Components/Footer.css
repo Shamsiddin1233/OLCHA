@@ -1,0 +1,343 @@
+.foot p {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    width: 500px;
+}
+.ota{
+    margin-top: 200px;
+}
+.foot img {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.refri :nth-child(1) {
+    padding: 5px;
+}
+
+.refri :nth-child(2) {
+    padding: 8px;
+}
+
+.refri :nth-child(3) {
+    padding: 1px;
+    position: relative;
+    top: 65px;
+    right: 350px;
+}
+
+.refri :nth-child(1):hover {
+    background-color: rgba(128, 128, 128, 0.5);
+    transition: 0.5s;
+}
+
+.refri :nth-child(2):hover {
+    background-color: rgba(128, 128, 128, 0.5);
+    transition: 0.5s;
+}
+
+.refri :nth-child(3):hover {
+    background-color: rgba(128, 128, 128, 0.5);
+    transition: 0.5s;
+}
+
+.refri {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.headd {
+    position: relative;
+    bottom: 100px;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(228, 228, 228, 0.956);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.ota {
+    background-color: rgba(228, 228, 228, 0.956);
+}
+
+hr {
+    position: relative;
+    bottom: 300px;
+}
+
+.po {
+    position: relative;
+    bottom: 140px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column :nth-child(1) {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: red;
+}
+
+.column :nth-child(2) {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.column :nth-child(3) {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.column :nth-child(4) {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.column :nth-child(5) {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.tutu {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 250px;
+}
+.madia-err{
+    display: flex;
+}
+
+.columnn :nth-child(1) {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: red;
+    font-weight: bolder;
+}
+
+.columnn :nth-child(2) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.columnn :nth-child(3) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.columnn :nth-child(4) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.columnn :nth-child(5) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.columnn :nth-child(6) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.tutu
+.columnnn :nth-child(1) {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.columnnn :nth-child(2) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.columnnn :nth-child(3) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.columnnn :nth-child(4) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.columnnn :nth-child(5) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.columnnn :nth-child(6) {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.columnnn {
+    position: relative;
+    top: 60px;
+}
+
+.mmm img {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.mmm img:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+    transition: 0.5s;
+}
+
+.rrr {
+    width: 400px;
+    height: auto;
+}
+
+.mmm {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ttt {
+    display: flex;
+    justify-content: center;
+    gap: 280px;
+    align-items: center;
+    padding: 0 0 30px;
+}
+
+.ttt p {
+    font-size: 16px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.ttt p:hover {
+    color: red;
+    transition: 0.4s;
+}
+
+.chiziqcha {
+    position: relative;
+    top: -30px;
+}
+
+.iconnn {
+    display: flex;
+    gap: 20px;
+}
+
+.iconnn :nth-child(1):hover {
+    color: red;
+    transition: 0.4s;
+}
+
+.iconnn :nth-child(2):hover {
+    color: red;
+    transition: 0.4s;
+}
+.iconnn :nth-child(3):hover {
+    color: red;
+    transition: 0.4s;
+}
+
+@media (max-width:1200px){
+    .ota{
+        width: 100%;
+
+    }
+    .four{
+        display: none;
+    }
+
+}
+
+
+@media (max-width:900px){
+
+        .four{
+        display: none;
+    }
+
+    .tutu{
+        display: block;
+    }
+    .rrr{
+        width: 100%;
+    }
+    .mmm{
+        width: 100%;
+        
+        display: block;
+       
+        margin-top: 150px;
+    }
+    .mmm>img{
+        margin-left: 10px;
+    }
+    .ttt{
+        display: flex;
+        gap: 100px;
+    }
+    .ttt>p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:632px){
+    .baba{
+        display: block;
+    }
+    .tutu{
+        display: block;
+    }
+    .madia-err{
+        display: block;
+    }
+    .ttt{
+        display: block;
+        line-height: 50px;
+    }
+}
+@media (max-width:480px){
+    .foot{
+        width: 100%;
+    }
+    .foot>p{
+        width: 400px;
+        font-size: 15px;
+    }
+}
